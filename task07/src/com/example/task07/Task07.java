@@ -4,12 +4,12 @@ public class Task07 {
 
     public static int solution(int n, int m, int k) {
 
-        int count = 0;
-        count = (n/k)*(m/k);
+        int c = 0;
+        c = (n/k)*(m/k);
 
         // TODO напишите здесь свою корректную реализацию этого метода, вместо сеществующей
 
-        return count;
+        return c;
     }
 
     public static void main(String[] args) {
