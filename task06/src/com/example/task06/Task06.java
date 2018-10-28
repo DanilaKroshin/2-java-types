@@ -4,9 +4,26 @@ public class Task06 {
 
     public static int solution(int x, int y) {
 
+        int b;
+        int count = 0;
+        b = x + y;
+        if (b == 0){
+            count = 1;
+        }
+        while (b > 0){
+            b /= 10;
+            count +=1;
+        }
+        while (b < 0){
+            b /= 10;
+            count += 1;
+
+        }
+
+
         // TODO напишите здесь свою корректную реализацию этого метода, вместо сеществующей
 
-        return 0;
+        return count;
     }
 
     public static void main(String[] args) {
